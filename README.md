@@ -6,4 +6,10 @@ struct key {
   int count;
 } keytab[10];
 
- 
+struct key {
+  char *word;
+  int count;
+  }
+  
+struct key keytab[10];
+
